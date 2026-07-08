@@ -71,11 +71,4 @@ Movie Recommendation System/
 
 
 
-## 🔗 Backend API Reference
 
-| Endpoint | Method | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| `/` | `GET` | None | Service Health Check |
-| `/search` | `GET` | `q` (string) | Returns autocomplete title suggestions |
-| `/recommend/{movie_name}` | `GET` | Path variable | Generates top 5 recommendation metadata cards |
-| `/movie/details` | `GET` | `title` (string) | Returns details metadata for a specific movie |
