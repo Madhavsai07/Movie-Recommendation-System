@@ -57,12 +57,16 @@ Movie Recommendation System/
 
 ### 🎨 Premium React Frontend
 * **Vite + TailwindCSS v4**: Compiles CSS-first animations, transition layers, and layouts.
+* **Debounced Autocomplete Suggestions**: Shows matching movie titles dynamically as the user types (supports keyboard arrow navigation, ESC to close, and Enter to search).
+* **Multi-column Sorting**: Sort recommendations instantly by Highest Rating, Lowest Rating, Most Popular, Newest Release, Oldest Release, Alphabetical (A-Z), and Runtime.
 * **Global Context State Management**: Theme variables, Favorites syncing, and Search results are handled cleanly across routes using React Context.
 * **Theme Switching**: Toggle between dark and light mode screens seamlessly (persisted in `localStorage`).
 * **Saved Favorites Directory (`/favorites`)**: Independent search, sort, and paginated lists (20 cards per page) for saved movies.
 * **Interactive Movie Details Page (`/movie/:title`)**: High-fidelity overlays containing full metadata cards, copy-to-clipboard sharing options, "Recently Viewed" history tracking, and a related movie recommendations row.
+* **Recently Viewed List**: Local storage cache tracking the last 10 visited movie details pages.
+* **Search History Tracking**: Tracks and displays recently searched queries with quick deletion options.
 * **Download recommendations**: Exports lists directly as `CSV` or `JSON` formats.
-* **Skeleton Placeholders**: Renders pulse skeleton elements instead of basic spinners.
+* **Skeleton Placeholders**: Renders pulse skeleton cards for smooth visual transitions during API fetches.
 
 
 
