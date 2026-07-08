@@ -94,24 +94,6 @@ Movie Recommendation System/
    ```
    *The backend will boot up on [http://127.0.0.1:8000](http://127.0.0.1:8000).*
 
----
-
-### 3. Configure Frontend
-1. Navigate to the frontend folder:
-   ```bash
-   cd app/frontend
-   ```
-2. Install packages:
-   ```bash
-   npm install
-   ```
-3. Boot the development server:
-   ```bash
-   npm run dev
-   ```
-   *The web platform will run on [http://localhost:5174](http://localhost:5174).*
-
----
 
 ## 🔗 Backend API Reference
 
