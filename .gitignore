@@ -25,4 +25,3 @@ data/*.txt
 # Environment Keys & local docs
 .env
 app/backend/.env
-README.md
