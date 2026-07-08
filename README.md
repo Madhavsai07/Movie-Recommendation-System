@@ -64,34 +64,7 @@ Movie Recommendation System/
 * **Download recommendations**: Exports lists directly as `CSV` or `JSON` formats.
 * **Skeleton Placeholders**: Renders pulse skeleton elements instead of basic spinners.
 
----
 
-## 🛠️ Getting Started
-
-### 1. Prerequisites
-* Python 3.9+ installed.
-* Node.js v18+ (tested on v24.18.0) and npm installed.
-* A TMDB API Key (from [The Movie Database settings](https://www.themoviedb.org/settings/api)).
-
----
-
-### 2. Configure Backend
-1. Navigate to the backend folder:
-   ```bash
-   cd app/backend
-   ```
-2. Create a `.env` file:
-   ```env
-   TMDB_API_KEY=your_actual_tmdb_api_key
-   ```
-3. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the FastAPI development server:
-   ```bash
-   python -m uvicorn main:app --port 8000 --reload
-   ```
 
 
 ## 🔗 Backend API Reference
