@@ -92,7 +92,6 @@ Movie Recommendation System/
    ```bash
    python -m uvicorn main:app --port 8000 --reload
    ```
-   *The backend will boot up on [http://127.0.0.1:8000](http://127.0.0.1:8000).*
 
 
 ## 🔗 Backend API Reference
